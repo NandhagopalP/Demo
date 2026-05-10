@@ -1,6 +1,6 @@
-function add()
+function add(a,b)
 {
-  let a=10, b=20, c;
+  let c;
   c=a+b
 }
-add()
+add(10,20)
