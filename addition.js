@@ -1,7 +1,8 @@
 function add(a,b)
 {
   let c;
-  c=a+b
+  c=a+b;
+  console.log(c);
 }
 function sub(a,b)
 {
@@ -9,5 +10,6 @@ function sub(a,b)
   return c;
 }
 add(10,20)
-sub(20,10)
+let res = sub(20,10);
+console.log(res);
 
